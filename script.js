@@ -66,26 +66,26 @@ function calculate() {
 
     num1 = " "; 
     num2 = " ";
+    operation = " ";
 }
 
 function flush() {
     if (num1 !== " ") {
-        document.getElementById(num1).style.backgroundColor = "#E4A0B7";
+        document.getElementById(num1).style.backgroundColor = null;
     }
 
     if (num2 !== " ") {
-        document.getElementById(num2).style.backgroundColor = "#E4A0B7";
+        document.getElementById(num2).style.backgroundColor = null;
     }
 
    if (operation !== " ") {
-    document.getElementById(operation).style.backgroundColor = "#F782B4";
+    document.getElementById(operation).style.backgroundColor = null;
    }
 
     num1 = " "; 
     num2 = " ";
     operation = " ";
     document.getElementById("result").innerHTML = " ";
-
 }
 
 
