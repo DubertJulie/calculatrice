@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Calculette</title>
+</head>
+
+<body>
+    <div class="calculette">
+        <h1>Calculette </h1><br>
+    
+        <div class="calc-grid">
+            <button id="1" value="1" onClick="getValues(1)">1</button>
+            <button id="2" value="2" onClick="getValues(2)">2</button>
+            <button id="3" value="3" onClick="getValues(3)">3</button>
+
+            <button id="add" value="add" onClick="getOperator(this.value)">+</button><br>
+
+            <button id="4" value="4" onClick="getValues(4)">4</button>
+            <button id="5" value="5" onClick="getValues(5)">5</button>
+            <button id="6" value="6" onClick="getValues(6)">6</button>
+
+            <button id="subtract" value="subtract" onClick="getOperator(this.value)">-</button><br>
+
+
+            <button id="7" value="7" onClick="getValues(7)">7</button>
+            <button id="8" value="8" onClick="getValues(8)">8</button>
+            <button id="9" value="9" onClick="getValues(9)">9</button>
+
+            <button id="multiply" value="multiply" onClick="getOperator(this.value)">x</button><br>
+
+
+            <button id="0" value="0" onClick="getValues(0)">0</button>
+            
+            <button id="flush" onClick="flush()">flush</button>
+            <button id="equal" type="button" onClick="calculate()">=</button>
+        
+            <button id="divide" value="divide" onClick="getOperator(this.value)">/</button><br>
+    
+
+    </div>    
+
+
+        
+        <h2 id="result"></h2>
+    <div class="footer">novembre 2024</div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

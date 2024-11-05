@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Lexend";
+    background-color: whitesmoke;
+    color: #714555;
+    /* background-image: url(https://i.pinimg.com/564x/c8/ec/44/c8ec44a63bc7a1afb70788d9890debc1.jpg); */
+}
+
+.calculette {
+    padding: 4vh;
+    margin-top: 20vh;
+    border-radius: 2vh;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* input {
+    border-radius: 100vh;
+    border: none;
+    height: 5vh;
+    text-align: right;
+    padding: 0vh 2vh;
+    color: #714555;
+    font-family: "Lexend";
+}
+
+input::placeholder{
+    font-family: "Lexend";
+} 
+
+#num1 {
+    background-color: #E4A0B7;
+}
+
+#num2 {
+    background-color: #E18AAA;
+}
+
+select {
+    background-color: #EFCFD4;
+    color: #714555;
+    font-weight: 600;
+    border-radius: 100vh;
+    border: none;
+    height: 5vh;
+    width: 5vh;
+    text-align: center;
+} */
+
+button {
+    background-color: #E4A0B7;
+    border-radius: 100vh;
+    border: none;
+    height: 5vh;
+    width: 5vh;
+    padding: 0.5vh;
+    font-family: "Lexend";
+    color: white;
+    margin: 0.2vh;
+}
+
+#equal {
+    background-color: #F955A0;
+    color: white;
+}
+
+#add, #multiply, #divide, #subtract {
+    background-color: #F782B4;
+    font-weight: 600;
+    color: white;
+}
+
+#flush {
+    background-color: #FBCADD;
+}
+
+#result {
+    border-radius: 3vh;
+    background-color: #ECBDC4;
+    height: 7vh;
+    text-align: right;
+    padding: 0.5vh 5vh 0.5vh 0;
+    align-content: center;
+}
+
+.footer {
+    font-size: 0.7em;
+    text-align: center;
+    color: #ECBDC4;
+}
